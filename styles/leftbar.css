@@ -1,0 +1,48 @@
+.leftbar {
+  position: sticky;
+  left: 0;
+  height: 400px;
+  top: 60px;
+  bottom: 0;
+  max-width: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  gap: 5px;
+}
+.profile,
+.side-item,
+.side-item-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+  border-radius: 0.5em;
+}
+.profile:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.side-item:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.profile-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.left-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+.left-header {
+  font-size: 17px;
+  font-weight: bold;
+}
+.see-more {
+  font-size: 20px;
+  background-color: rgb(228, 230, 235);
+  border-radius: 50%;
+  padding: 8px;
+  font-weight: bold;
+}
